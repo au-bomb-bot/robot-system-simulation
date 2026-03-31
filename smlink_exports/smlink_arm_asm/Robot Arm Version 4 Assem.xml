@@ -1,0 +1,4199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="03/31/26||01:38:43" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.5.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robot Arm Version 4 Assem" uid="Robot Arm Version 4 Assem" version="1652">
+<AssemblyFile name="Robot Arm Version 4 Assem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Arm Hitch Track Rod Prototype-2" uid="Arm Hitch Track Rod Prototype-2" entityUid="Arm Hitch Track Rod Prototype*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.063500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Hitch Track Rod Prototype-1" uid="Arm Hitch Track Rod Prototype-1" entityUid="Arm Hitch Track Rod Prototype*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Hitch Version 4-2" uid="Arm Hitch Version 4-2" entityUid="Arm Hitch Version 4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.03175</Translation>
+</Transform>
+</Instance>
+<Instance name="98957A184_Grade B7 Medium-Strength Steel Threaded Rod-1" uid="98957A184_Grade B7 Medium-Strength Steel Threaded Rod-1" entityUid="98957A184_Grade B7 Medium-Strength Steel Threaded Rod*:*98957A184">
+<Transform>
+<Rotation>-0.85508403690312218 -0.51848943078278886 0 1.1535340219631653e-16 -1.7442651635734242e-16 -1 0.51848943078278897 -0.85508403690312207 2.0895884959341106e-16</Rotation>
+<Translation>-0.025400000000000318 0.049671999999999869 0.03174999999999896</Translation>
+</Transform>
+</Instance>
+<Instance name="Robot Arm 2 Version 4-1" uid="Robot Arm 2 Version 4-1" entityUid="Robot Arm 2 Version 4*:*Default">
+<Transform>
+<Rotation>0.51405140134609262 0 0.85775938162990606 -5.3589262447656913e-16 1 2.968263615828706e-16 -0.85775938162990606 -6.1225093331918607e-16 0.51405140134609262</Rotation>
+<Translation>-0.20394310019617429 -0.00063500000000016809 0.59907291782463612</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Linkage 2-3" uid="Arm Linkage 2-3" entityUid="Arm Linkage 2*:*Default">
+<Transform>
+<Rotation>-1.1445412749868576e-15 0.90234200987556845 -0.43102076192884214 -1 -1.0418716321624206e-15 4.7426191600215182e-16 0 0.43102076192884214 0.90234200987556845</Rotation>
+<Translation>-0.016304414400859252 -0.018732500000000207 0.30117653891363244</Translation>
+</Transform>
+</Instance>
+<Instance name="18 Tooth Timing Belt Pulley (1326N51)-1" uid="18 Tooth Timing Belt Pulley (1326N51)-1" entityUid="18 Tooth Timing Belt Pulley (1326N51)*:*1326N51">
+<Transform>
+<Rotation>-8.7795300156030253e-16 0.71952426550031712 -0.69446730042258265 -1 0 1.2395571298981822e-15 8.7536655705243709e-16 0.69446730042258265 0.71952426550031712</Rotation>
+<Translation>0.097243141400039285 -0.046400000000000399 0.54957183140766575</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Base Mount Clamp + Motor Mount Assem-4" uid="Arm Base Mount Clamp + Motor Mount Assem-4" entityUid="Arm Base Mount Clamp + Motor Mount Assem" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.025399999999999565 -0.37464999999999998 0.0063500000000006026</Translation>
+</Transform>
+<Instance name="5720K23_Clamping Handle with Threaded Stud-1" uid="5720K23_Clamping Handle with Threaded Stud-1" entityUid="5720K23_Clamping Handle with Threaded Stud*:*5720K23">
+<Transform>
+<Rotation>2.9837243786801082e-16 0 1 0 1 0 -1 0 2.9837243786801082e-16</Rotation>
+<Translation>0.054768750000000019 0.0047625000000000028 -0.030162499999999974</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Base Mount Version 2 Motor Mount-4" uid="Arm Base Mount Version 2 Motor Mount-4" entityUid="Arm Base Mount Version 2 Motor Mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Base Mount Jaw-1" uid="Arm Base Mount Jaw-1" entityUid="Arm Base Mount Jaw*:*Default">
+<Transform>
+<Rotation>0 -1 -3.0144529585260837e-16 1 0 3.0144529585260837e-16 -3.0144529585260837e-16 -3.0144529585260837e-16 1</Rotation>
+<Translation>0 -0.014287500000000009 -0.038099999999999974</Translation>
+</Transform>
+</Instance>
+<Instance name="5720K23_Clamping Handle with Threaded Stud-2" uid="5720K23_Clamping Handle with Threaded Stud-2" entityUid="5720K23_Clamping Handle with Threaded Stud*:*5720K23">
+<Transform>
+<Rotation>3.0451815383720591e-16 0 1 0 1 0 -1 0 3.0451815383720591e-16</Rotation>
+<Translation>-0.054768750003658384 0.0047625000000000028 -0.030162500000000012</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Robot Arm 1 Curved Version 4-3" uid="Robot Arm 1 Curved Version 4-3" entityUid="Robot Arm 1 Curved Version 4*:*Default">
+<Transform>
+<Rotation>0.99585944342156663 1.1502136702559739e-15 -0.090906374628448694 -1.1478380777190169e-15 1 0 0.090906374628448694 0 0.99585944342156663</Rotation>
+<Translation>-0.026034241071188593 0 0.41222812849198576</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Hitch Track Rod Prototype-4" uid="Arm Hitch Track Rod Prototype-4" entityUid="Arm Hitch Track Rod Prototype*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.050799999999999998 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Chuck Mount Assem-1" uid="Chuck Mount Assem-1" entityUid="Chuck Mount Assem">
+<Transform>
+<Rotation>-6.1440786870279639e-16 0.99788716562606405 0.064970798662015661 -1 -7.063024256358793e-16 1.3914290535365934e-15 1.4343782270938699e-15 -0.064970798662015661 0.99788716562606405</Rotation>
+<Translation>-0.35645271824997155 -0.00063500000000018284 0.50767457866530075</Translation>
+</Transform>
+<Instance name="drill chuck assembly mass included-1" uid="drill chuck assembly mass included-1" entityUid="drill chuck assembly mass included" rigid="true">
+<Transform>
+<Rotation>0 1.733157559142383e-15 -0.99999999999999989 -0.99952290329043669 0.030886336750352114 0 0.030886336750352114 0.99952290329043669 1.7342588052598623e-15</Rotation>
+<Translation>0.068434203690191417 0.012173929984491572 -0.16113526824631069</Translation>
+</Transform>
+<Instance name="driil chuck jaws 2-1" uid="driil chuck jaws 2-1" entityUid="driil chuck jaws 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.015460686004843849 0.010222176530156502 0.068434203690138529</Translation>
+</Transform>
+</Instance>
+<Instance name="drill chuck part 2-1" uid="drill chuck part 2-1" grounded="true" entityUid="drill chuck part 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.017237360746211461 0.024033157182788478 0.068434203690138529</Translation>
+</Transform>
+</Instance>
+<Instance name="drill chuck part1-1" uid="drill chuck part1-1" entityUid="drill chuck part1*:*Default">
+<Transform>
+<Rotation>-0.28251823343197424 -1.2628786905111156e-15 -0.95926192866102877 7.3899220076611982e-16 -0.99999999999999978 1.124100812432971e-15 -0.95926192866102866 -3.9461354638436699e-16 0.28251823343197419</Rotation>
+<Translation>0.017237360746211017 0.091333157182788505 0.06843420369013864</Translation>
+</Transform>
+</Instance>
+<Instance name="drill chuck gear-1" uid="drill chuck gear-1" entityUid="drill chuck gear*:*Default">
+<Transform>
+<Rotation>-0.95926192866102833 1.2316173564687529e-15 -0.28251823343197568 1.0963452368173423e-15 1 6.3689733556380169e-16 0.28251823343197568 3.0121384693480603e-16 -0.95926192866102833</Rotation>
+<Translation>0.017237360746210961 0.052033157182788559 0.068434203690138626</Translation>
+</Transform>
+</Instance>
+<Instance name="driil chuck jaws 2-2" uid="driil chuck jaws 2-2" entityUid="driil chuck jaws 2*:*Default">
+<Transform>
+<Rotation>-0.50000000000000411 0 0.86602540378443627 0 0.99999999999999978 0 -0.86602540378443627 0 -0.500000000000004</Rotation>
+<Translation>0.018125698116895295 0.010222176530156557 0.069972849150425259</Translation>
+</Transform>
+</Instance>
+<Instance name="driil chuck jaws 2-3" uid="driil chuck jaws 2-3" entityUid="driil chuck jaws 2*:*Default">
+<Transform>
+<Rotation>-0.49999999999999201 0 -0.86602540378444326 0 1 0 0.86602540378444326 0 -0.49999999999999201</Rotation>
+<Translation>0.018125698116930877 0.010222176530156502 0.066895558229872587</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Robot Chuck Hitch-1" uid="Robot Chuck Hitch-1" entityUid="Robot Chuck Hitch*:*Default">
+<Transform>
+<Rotation>1 0 1.7331575591455376e-15 0 0.99952290329043669 0.030886336750352072 -1.7338301712354358e-15 -0.030886336750352072 0.99952290329043669</Rotation>
+<Translation>5.2893778766660571e-14 -0.0016998828484626749 -0.055010468015358194</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Work Area-1" visible="false" uid="Work Area-1" entityUid="Work Area*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.50800000000000001 0 0.254</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Hitch Track Rod Prototype-3" uid="Arm Hitch Track Rod Prototype-3" entityUid="Arm Hitch Track Rod Prototype*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.050800000000000012 0 0.063499999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Base Mount Clamp Assem-5" uid="Arm Base Mount Clamp Assem-5" entityUid="Arm Base Mount Clamp Assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.025400000000000325 0.38099999999999995 0.0063499999999988843</Translation>
+</Transform>
+<Instance name="5720K23_Clamping Handle with Threaded Stud-2" uid="5720K23_Clamping Handle with Threaded Stud-2" entityUid="5720K23_Clamping Handle with Threaded Stud*:*5720K23">
+<Transform>
+<Rotation>3.0451815383720591e-16 0 1 0 1 0 -1 0 3.0451815383720591e-16</Rotation>
+<Translation>-0.054768750003658384 0.0047625000000000028 -0.030162500000000009</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Base Mount Version 2-3" uid="Arm Base Mount Version 2-3" entityUid="Arm Base Mount Version 2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="5720K23_Clamping Handle with Threaded Stud-1" uid="5720K23_Clamping Handle with Threaded Stud-1" entityUid="5720K23_Clamping Handle with Threaded Stud*:*5720K23">
+<Transform>
+<Rotation>2.9837243786801082e-16 0 1 0 1 0 -1 0 2.9837243786801082e-16</Rotation>
+<Translation>0.054768750000000012 0.0047625000000000028 -0.030162499999999974</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Base Mount Jaw-1" uid="Arm Base Mount Jaw-1" entityUid="Arm Base Mount Jaw*:*Default">
+<Transform>
+<Rotation>0 -1 -3.0144529585260837e-16 1 0 3.0144529585260837e-16 -3.0144529585260837e-16 -3.0144529585260837e-16 1</Rotation>
+<Translation>0 -0.014287500000000009 -0.038099999999999981</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Arm Linkage 1-3" uid="Arm Linkage 1-3" entityUid="Arm Linkage 1*:*Default">
+<Transform>
+<Rotation>1.1449079496341897e-15 -0.070325704696739613 -0.99752408254583358 1 0 1.1414004925171243e-15 0 -0.99752408254583358 0.070325704696739613</Rotation>
+<Translation>-0.11334118130210843 0 0.18137349441166961</Translation>
+</Transform>
+</Instance>
+<Instance name="Arm Linkage 2-2" uid="Arm Linkage 2-2" entityUid="Arm Linkage 2*:*Default">
+<Transform>
+<Rotation>1.1445100370391799e-15 -0.90234200987556834 -0.4310207619288422 1 1.0438548971124335e-15 4.7003747627762571e-16 0 -0.4310207619288422 0.90234200987556834</Rotation>
+<Translation>-0.016304414400859141 0.018732499999999791 0.30117653891363244</Translation>
+</Transform>
+</Instance>
+<Instance name="48 Tooth Timing Belt Pulley (1326N63)-1" uid="48 Tooth Timing Belt Pulley (1326N63)-1" entityUid="48 Tooth Timing Belt Pulley (1326N63)*:*1326N63">
+<Transform>
+<Rotation>0 -0.51405140134609228 -0.85775938162990606 -1 0 0 0 0.85775938162990606 -0.51405140134609228</Rotation>
+<Translation>-0.051433482142377085 -0.046400000000000802 0.69047125698397116</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft-2" uid="SS joint shaft-2" entityUid="SS joint shaft*:*Default">
+<Transform>
+<Rotation>0.99999999999818157 -5.8645113932615697e-16 -1.9070505003481059e-06 5.8403236931078861e-16 1 0 1.9070505002845636e-06 0 0.99999999999818168</Rotation>
+<Translation>-0.00063500000000040651 0 0.13398499999999841</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-1" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-1" entityUid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17">
+<Transform>
+<Rotation>1 -5.5805567181348347e-16 -5.5805567181348347e-16 -5.5805567181348347e-16 0 -1 5.5805567181348347e-16 1 0</Rotation>
+<Translation>-0.10798236260421692 -0.021590000000000099 0.25738482950166208</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-4" uid="6436K71_Clamping Two-Piece Shaft Collar-4" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>-5.5805567181348347e-16 1 0 -1 -5.5805567181348347e-16 0 0 0 1</Rotation>
+<Translation>-0.10798236260421686 -0.0299243750000001 0.25738482950166208</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-5" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-5" entityUid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17">
+<Transform>
+<Rotation>0.94987928790123766 0.31261691959367421 -5.5805567181348278e-16 -5.2230055448309931e-16 -1.9811209556780403e-16 -0.99999999999999978 -0.31261691959367421 0.94987928790123766 0</Rotation>
+<Translation>0.075373533802498519 -0.021590000000000314 0.3449682483256028</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft-3" uid="SS joint shaft-3" entityUid="SS joint shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.10798236260421686 0 0.25738482950166208</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-4" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-4" entityUid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17">
+<Transform>
+<Rotation>1 -5.5805567181336436e-16 -5.5805567181336436e-16 -5.5805567181336436e-16 0 -1 5.5805567181336436e-16 1 0</Rotation>
+<Translation>-0.00063499999999996285 0.022225000000000165 0.13398500000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft-1" uid="SS joint shaft-1" entityUid="SS joint shaft*:*Default">
+<Transform>
+<Rotation>0.99999999999859679 -1.2073595867867771e-15 1.6753189757169861e-06 1.2121931041556815e-15 1 -4.5240833258328576e-16 -1.675318975728681e-06 4.5386558866795622e-16 0.99999999999859668</Rotation>
+<Translation>0.07537353380249863 0 0.3449682483256028</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-1" uid="6436K71_Clamping Two-Piece Shaft Collar-1" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>1.7639210427695663e-16 -1 1.5402147586125015e-16 1 1.7639210427695665e-16 1.5402147586125015e-16 -1.5402147586125018e-16 1.5402147586125015e-16 1</Rotation>
+<Translation>-0.10798236260421686 0.029924374999999902 0.25738482950166208</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-2" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-2" entityUid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17">
+<Transform>
+<Rotation>0.99574339660521016 -0.092168802298390154 -5.5805567181336445e-16 -5.5797549165521524e-16 0 -1 0.092168802298390154 0.99574339660521016 0</Rotation>
+<Translation>-0.00063499999999861974 -0.022225000000000043 0.13398500000000621</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-3" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-3" entityUid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17">
+<Transform>
+<Rotation>1 -1.7639210427695665e-16 1.7639210427695663e-16 -1.7639210427695668e-16 -1.5402147586125015e-16 1 -1.763921042769566e-16 -1 -1.5402147586125018e-16</Rotation>
+<Translation>-0.10798236260421686 0.021589999999999897 0.25738482950166208</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-6" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-6" entityUid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17">
+<Transform>
+<Rotation>1 -1.7639210427695665e-16 1.7639210427695663e-16 -1.7639210427695668e-16 -1.5402147586125015e-16 1 -1.763921042769566e-16 -1 -1.5402147586125018e-16</Rotation>
+<Translation>0.075373533802498588 0.021589999999999686 0.3449682483256028</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-2" uid="6436K71_Clamping Two-Piece Shaft Collar-2" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>5.8687120354578352e-16 0.99999999992329436 -1.2385934820102792e-05 -1 5.9016744431168666e-16 0 0 1.2385934820175055e-05 0.99999999992329447</Rotation>
+<Translation>-0.00063500000000021558 -0.030559375000000041 0.13398499999999841</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-3" uid="6436K71_Clamping Two-Piece Shaft Collar-3" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>6.8052035172809349e-16 -1 0 1 6.8052035172809349e-16 0 0 0 1</Rotation>
+<Translation>-0.00063499999999981551 0.030559374999999653 0.13398499999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-6" uid="6436K71_Clamping Two-Piece Shaft Collar-6" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>-4.3559099189874754e-16 1 0 -1 -4.3559099189874754e-16 0 0 0 1</Rotation>
+<Translation>0.075373533802498671 -0.029924375000000315 0.34496824832560274</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-1" uid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-1" entityUid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing*:*1258N23">
+<Transform>
+<Rotation>1 -5.5805567181335814e-16 -5.5805567181335814e-16 -5.5805567181335814e-16 0 -1 5.5805567181335814e-16 1 0</Rotation>
+<Translation>-0.051433482142377189 -0.019843750000000181 0.69047125698397149</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-2" uid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-2" entityUid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing*:*1258N23">
+<Transform>
+<Rotation>1 -5.5805567181335814e-16 -5.5805567181335814e-16 -5.5805567181335814e-16 0 -1 5.5805567181335814e-16 1 0</Rotation>
+<Translation>-0.05143348214237714 0.019843749999999816 0.69047125698397149</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft 3 Quarter Diameter-1" uid="SS joint shaft 3 Quarter Diameter-1" entityUid="SS joint shaft 3 Quarter Diameter*:*Default">
+<Transform>
+<Rotation>0.51405140134609262 0 0.85775938162990595 0 1 0 -0.85775938162990595 0 0.51405140134609262</Rotation>
+<Translation>-0.051433482142377127 -0.025400000000000183 0.69047125698397149</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-5" uid="6436K71_Clamping Two-Piece Shaft Collar-5" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>2.9885678419169197e-16 -1 1.5402147586125015e-16 1 2.9885678419169197e-16 1.540214758612501e-16 -1.5402147586125015e-16 1.540214758612501e-16 1</Rotation>
+<Translation>0.075373533802498588 0.029924374999999691 0.3449682483256028</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-11" uid="6436K71_Clamping Two-Piece Shaft Collar-11" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>0 0.99999999999999933 -4.2031502173287392e-08 -1 0 0 0 4.203150219863306e-08 0.99999999999999933</Rotation>
+<Translation>0.12700000000000025 0.017859374999999993 0.20772636204899783</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-10" uid="6436K71_Clamping Two-Piece Shaft Collar-10" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>6.2822930899002501e-16 0.99999999999998712 1.6148945610527914e-07 -1 6.255836364103228e-16 0 0 -1.6148945625080109e-07 0.99999999999998712</Rotation>
+<Translation>0.15136509488807573 0.017859374999999601 0.33928824003165242</Translation>
+</Transform>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-1" uid="9533T3_Self-Aligning Linear Sleeve Bearing-1" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-1 0 0 0 1.2246467991473537e-16 1 0 1 -1.2246467991473532e-16</Rotation>
+<Translation>-0.050799999999999998 0.060325000000000031 0</Translation>
+</Transform>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-5" uid="9533T3_Self-Aligning Linear Sleeve Bearing-5" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 0.54694413860398872 0 0 0 -1 -0.54694413860398872 -0.83716910433122238 0</Rotation>
+<Translation>-0.050799999999999956 -0.060324999999999976 0.063500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-9" uid="6436K71_Clamping Two-Piece Shaft Collar-9" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>0 -0.10926707750071944 0.99401242737425155 -1 0 0 0 -0.99401242737425155 -0.10926707750071944</Rotation>
+<Translation>0.15136509488807573 -0.017859375000000399 0.33928824003165242</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K72_Clamping Two-Piece Shaft Collar-2" uid="6436K72_Clamping Two-Piece Shaft Collar-2" entityUid="6436K72_Clamping Two-Piece Shaft Collar*:*6436K72">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.051433482142377127 -0.073750000000000801 0.69047125698397149</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K72_Clamping Two-Piece Shaft Collar-1" uid="6436K72_Clamping Two-Piece Shaft Collar-1" entityUid="6436K72_Clamping Two-Piece Shaft Collar*:*6436K72">
+<Transform>
+<Rotation>0 0.83716910433122238 -0.54694413860398872 -1 0 0 0 0.54694413860398872 0.83716910433122238</Rotation>
+<Translation>-0.051433482142377127 0.031749999999999813 0.69047125698397149</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft-5" uid="SS joint shaft-5" entityUid="SS joint shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.12700000000000028 0 0.2077263620489978</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K71_Clamping Two-Piece Shaft Collar-8" uid="6436K71_Clamping Two-Piece Shaft Collar-8" entityUid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71">
+<Transform>
+<Rotation>0 0.97334190254580544 0.22935897791129087 -1 0 0 0 -0.22935897791129103 0.97334190254580544</Rotation>
+<Translation>0.12700000000000028 -0.017859375000000004 0.2077263620489978</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft-4" uid="SS joint shaft-4" entityUid="SS joint shaft*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.15136509488807573 0 0.33928824003165242</Translation>
+</Transform>
+</Instance>
+<Instance name="Tension belt mockup with tensioner-2" uid="Tension belt mockup with tensioner-2" entityUid="Tension belt mockup with tensioner*:*Default">
+<Transform>
+<Rotation>-5.7125110694798922e-16 0.73246264044371934 0.68080722701379626 -1 -4.0395541637986903e-16 -4.0447404950839042e-16 0 -0.68080722701379626 0.73246264044371934</Rotation>
+<Translation>0.024140343816248314 -0.049900000000000846 0.62022711886035808</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-2" uid="9533T3_Self-Aligning Linear Sleeve Bearing-2" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 -0.54694413860398872 0 0 0 1 -0.54694413860398872 0.83716910433122238 0</Rotation>
+<Translation>0 0.060325000000000031 0</Translation>
+</Transform>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-3" uid="9533T3_Self-Aligning Linear Sleeve Bearing-3" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 -0.54694413860398872 0 0 0 1 -0.54694413860398872 0.83716910433122238 0</Rotation>
+<Translation>0 0.060325000000000031 0.063499999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-4" uid="9533T3_Self-Aligning Linear Sleeve Bearing-4" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 -0.54694413860398872 0 0 0 1 -0.54694413860398872 0.83716910433122238 0</Rotation>
+<Translation>-0.050799999999999984 0.060325000000000031 0.063499999999999987</Translation>
+</Transform>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-6" uid="9533T3_Self-Aligning Linear Sleeve Bearing-6" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 0.54694413860398872 0 0 0 -1 -0.54694413860398872 -0.83716910433122238 0</Rotation>
+<Translation>0 -0.060324999999999976 0.063500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-4" uid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-4" entityUid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing*:*1258N23">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.11869999999999999 -0.012541249999999986 0.10536215932167711</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Enclosure Assem-6" uid="Motor Enclosure Assem-6" entityUid="Motor Enclosure Assem">
+<Transform>
+<Rotation>-3.5102911969622839e-15 1.2246467991473739e-16 1 0 1.0000000000000002 -1.2246467991473749e-16 -1.0000000000000002 0 -3.5102911969622835e-15</Rotation>
+<Translation>-0.025399999999999586 -0.4353877499999998 0.031750000000000556</Translation>
+</Transform>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093-1" uid="ElectroCraft-LRPX40-250V24-020-X 093-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093">
+<Transform>
+<Rotation>-1 -3.5249581031848708e-15 0 0 -1.2246467991473355e-16 1 -3.5249581031848708e-15 1 1.2246467991473355e-16</Rotation>
+<Translation>0 0.051934749999999974 0</Translation>
+</Transform>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft*:*Key">
+<Transform>
+<Rotation>-0.99883664308492748 -0.048221991153764014 0 0.048221991153763993 -0.99883664308492726 1.2246467991473525e-16 0 1.2232220978250442e-16 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250*:*Default">
+<Transform>
+<Rotation>-0.54142439919812935 -0.84074943946038083 0 0.84074943946038094 -0.54142439919812924 1.2246467991473542e-16 -1.0296211099200881e-16 0 1</Rotation>
+<Translation>0 0 -0.069000000000000006</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor Enclosure Body-1" uid="Motor Enclosure Body-1" entityUid="Motor Enclosure Body*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.2246467991473515e-16 0 1.2246467991473515e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor Enclosure Assem-1" uid="Motor Enclosure Assem-1" entityUid="Motor Enclosure Assem">
+<Transform>
+<Rotation>-0.34555620523062625 -1.188065979822864e-15 0.93839805467968085 2.0779592584713491e-16 -1 -1.1895387065841432e-15 0.93839805467968085 -2.1605718883684909e-16 0.34555620523062625</Rotation>
+<Translation>0.097243141400040381 0.040100249999999629 0.54957183140766297</Translation>
+</Transform>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093-1" uid="ElectroCraft-LRPX40-250V24-020-X 093-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093">
+<Transform>
+<Rotation>-1 -3.5527136788005009e-15 0 0 -1.224646799147331e-16 0.99999999999999989 -3.5527136788005009e-15 1 1.2246467991473367e-16</Rotation>
+<Translation>0 0.051934749999999988 0</Translation>
+</Transform>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft*:*Key">
+<Transform>
+<Rotation>-0.99819981857195228 -0.059976013563101949 1.7955988611981515e-16 0.059976013563101893 -0.99819981857195239 0 1.7529113720664805e-16 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250*:*Default">
+<Transform>
+<Rotation>-0.53149037884531847 -0.84706432884100358 4.5867892637624041e-16 0.84706432884100358 -0.53149037884531847 1.9694940516776925e-16 0 4.9320727089037969e-16 0.99999999999999989</Rotation>
+<Translation>-3.8191672047105385e-14 1.226796442210798e-14 -0.068999999999969863</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor Enclosure Body-1" uid="Motor Enclosure Body-1" entityUid="Motor Enclosure Body*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.22464679914735e-16 0 1.2246467991473554e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-7" uid="9533T3_Self-Aligning Linear Sleeve Bearing-7" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 0.54694413860398872 0 0 0 -1 -0.54694413860398872 -0.83716910433122238 0</Rotation>
+<Translation>-0.050799999999999956 -0.060324999999999976 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Enclosure Assem-5" uid="Motor Enclosure Assem-5" entityUid="Motor Enclosure Assem">
+<Transform>
+<Rotation>-0.85775938162991228 0 -0.51405140134608185 -3.7025625232429189e-16 -1 4.9860844684287089e-16 -0.51405140134608196 6.4289006358094402e-16 0.85775938162991228</Rotation>
+<Translation>-0.35645271824997521 0.071373999999999771 0.50767457866529875</Translation>
+</Transform>
+<Instance name="Motor Enclosure Body-1" uid="Motor Enclosure Body-1" entityUid="Motor Enclosure Body*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 1.5828962218704697e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093-1" uid="ElectroCraft-LRPX40-250V24-020-X 093-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093">
+<Transform>
+<Rotation>-1.0000000000000002 -3.6082248300317588e-15 0 0 0 0.99999999999999989 -3.3861802251067274e-15 1 1.58289622187045e-16</Rotation>
+<Translation>0 0.051934749999999988 0</Translation>
+</Transform>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft*:*Key">
+<Transform>
+<Rotation>0.048867102265528539 -0.99880528949148562 0 0.99880528949148562 0.048867102265528532 -2.2141139629022331e-16 2.2225993818643412e-16 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250*:*Default">
+<Transform>
+<Rotation>-0.49969256494101733 -0.86620282875471333 0 0.86620282875471322 -0.49969256494101738 0 0 0 1</Rotation>
+<Translation>7.3274719625260332e-15 -5.5511151231257827e-16 -0.068999999999999923</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="9533T3_Self-Aligning Linear Sleeve Bearing-8" uid="9533T3_Self-Aligning Linear Sleeve Bearing-8" entityUid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3">
+<Transform>
+<Rotation>-0.83716910433122238 0.54694413860398872 0 0 0 -1 -0.54694413860398872 -0.83716910433122238 0</Rotation>
+<Translation>0 -0.060324999999999976 0</Translation>
+</Transform>
+</Instance>
+<Instance name="6443K42_Single U-Joint-1" uid="6443K42_Single U-Joint-1" entityUid="6443K42_Single U-Joint*:*6443K42">
+<Transform>
+<Rotation>0 0.99616729310480534 -0.087468418004700732 -1 0 2.0887508556185031e-16 2.0895884959340601e-16 0.087468418004700732 0.99616729310480534</Rotation>
+<Translation>-0.025400000000000318 -0.34244050000000009 0.031749999999999043</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Enclosure Assem-4" uid="Motor Enclosure Assem-4" entityUid="Motor Enclosure Assem">
+<Transform>
+<Rotation>-2.1224851941362411e-14 1.2246467991473342e-16 -1 0 -1 -1.2246467991473345e-16 -1 0 2.1224851941362411e-14</Rotation>
+<Translation>-0.11869999999999999 0.072485250000000001 0.10536215932167706</Translation>
+</Transform>
+<Instance name="Motor Enclosure Body-1" uid="Motor Enclosure Body-1" entityUid="Motor Enclosure Body*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.224646799147353e-16 0 1.2246467991473535e-16 -1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093-1" uid="ElectroCraft-LRPX40-250V24-020-X 093-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093">
+<Transform>
+<Rotation>-1 -3.524958103184872e-15 0 0 -1.2246467991473332e-16 0.99999999999999989 -3.524958103184872e-15 1 1.2246467991473335e-16</Rotation>
+<Translation>0 0.051934749999999988 0</Translation>
+</Transform>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft*:*Key">
+<Transform>
+<Rotation>-7.6691104447352697e-15 -1 0 1 -7.6691104447352697e-15 1.2246467991473867e-16 -1.2246467991473862e-16 0 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" uid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1" entityUid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250*:*Default">
+<Transform>
+<Rotation>-0.5414243991981289 -0.84074943946038116 0 0.84074943946038116 -0.5414243991981289 1.2246467991473549e-16 -1.0296211099200853e-16 0 0.99999999999999956</Rotation>
+<Translation>0 0 -0.06899999999999995</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="PEEK Thread Insert-1" uid="PEEK Thread Insert-1" entityUid="PEEK Thread Insert*:*Default">
+<Transform>
+<Rotation>0.89275065995219416 0 -0.45055106165108749 0 1 0 0.4505510616510876 0 0.89275065995219416</Rotation>
+<Translation>-0.025399999999999947 0 0.031750000000000056</Translation>
+</Transform>
+</Instance>
+<Instance name="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing-1" uid="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing-1" entityUid="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing*:*2796T14">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.025399999999999999 0.38417499999999999 0.03175</Translation>
+</Transform>
+</Instance>
+<Instance name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-3" uid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-3" entityUid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing*:*1258N23">
+<Transform>
+<Rotation>1 -7.3204515592375683e-16 7.3204515592375703e-16 -7.3204515592375683e-16 2.9544598023676603e-16 1 -7.3204515592375703e-16 -1 2.9544598023676549e-16</Rotation>
+<Translation>-0.35645271824997155 -0.01317625000000008 0.50767457866530075</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K13_Clamping Two-Piece Shaft Collar-2" uid="6436K13_Clamping Two-Piece Shaft Collar-2" entityUid="6436K13_Clamping Two-Piece Shaft Collar*:*6436K13">
+<Transform>
+<Rotation>-1.6921526302234084e-15 -1 0 1 -1.6921526302234084e-15 0 0 0 1</Rotation>
+<Translation>0.072189019354410536 -0.055720500000000325 0.63247338520940277</Translation>
+</Transform>
+</Instance>
+<Instance name="7749N811_Corrosion-Resistant Extension Spring with Loop Ends-1" uid="7749N811_Corrosion-Resistant Extension Spring with Loop Ends-1" entityUid="7749N811_Corrosion-Resistant Extension Spring with Loop Ends*:*7749N811">
+<Transform>
+<Rotation>0.18333911752191237 -0.98304972813499436 -1.1279800623864325e-15 -4.2864038718213982e-16 1.0674877191178099e-15 -0.99999999999999989 0.98304972813499436 0.18333911752191237 -2.2566255969854295e-16</Rotation>
+<Translation>0.13975872877418868 0 0.27340577559192319</Translation>
+</Transform>
+</Instance>
+<Instance name="6235K62_Idler Pulley-1" uid="6235K62_Idler Pulley-1" entityUid="6235K62_Idler Pulley*:*6235K62">
+<Transform>
+<Rotation>1 1.6921526302234092e-15 -1.6921526302234082e-15 1.6921526302234086e-15 -1.8186283606158747e-16 1 1.6921526302234088e-15 -1 -1.8186283606159033e-16</Rotation>
+<Translation>0.072189019354410564 -0.04495799999999988 0.63247338520940288</Translation>
+</Transform>
+</Instance>
+<Instance name="SS joint shaft 3 8th Diameter-1" uid="SS joint shaft 3 8th Diameter-1" entityUid="SS joint shaft 3 8th Diameter*:*Default">
+<Transform>
+<Rotation>0.90942837288235789 0 0.41586059514763751 0 1 0 -0.4158605951476374 0 0.90942837288235778</Rotation>
+<Translation>0.072189019354410522 -0.031908000000000332 0.63247338520940277</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Bearing spacer-1" uid="Motor Bearing spacer-1" entityUid="Motor Bearing spacer*:*Default">
+<Transform>
+<Rotation>-6.735861935512292e-16 -0.4715210433136483 -0.88185480988222142 -1 -9.2149000702444064e-16 1.25654258575115e-15 -1.4051066659543179e-15 0.88185480988222142 -0.4715210433136483</Rotation>
+<Translation>-0.35645271824997155 -0.013176250000000117 0.50767457866530075</Translation>
+</Transform>
+</Instance>
+<Instance name="Motor Bearing spacer-2" uid="Motor Bearing spacer-2" entityUid="Motor Bearing spacer*:*Default">
+<Transform>
+<Rotation>-2.5665936467566914e-16 0.99999999999999978 -1.7041923427996153e-14 1 2.5665936467568087e-16 6.7448539883596127e-16 6.744853988359661e-16 -1.7041923427996153e-14 -0.99999999999999978</Rotation>
+<Translation>-0.11869999999999999 -0.012541249999999985 0.10536215932167711</Translation>
+</Transform>
+</Instance>
+<Instance name="6436K13_Clamping Two-Piece Shaft Collar-1" uid="6436K13_Clamping Two-Piece Shaft Collar-1" entityUid="6436K13_Clamping Two-Piece Shaft Collar*:*6436K13">
+<Transform>
+<Rotation>-1.6921526302234088e-15 -1 0 1 -1.6921526302234088e-15 0 0 0 1</Rotation>
+<Translation>0.072189019354410688 -0.01111249999999965 0.63247338520940277</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 -0.07619999999999999 -0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-2</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 -0.07619999999999999 0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-2</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Work Area-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Work Area-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Work Area-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm Version 4 Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-2</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp Assem-5</Uid>
+<Uid>Arm Base Mount Version 2-3</Uid>
+</InstancePath>
+<Position>0.025400000000000006 -0.0047625000000000028 0.057150000000000006</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp Assem-5</Uid>
+<Uid>Arm Base Mount Version 2-3</Uid>
+</InstancePath>
+<Position>0.025399999999999999 -0.0047625000000000028 -0.0063499999999999945</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Base Mount Clamp Assem-5</Uid>
+<Uid>Arm Base Mount Version 2-3</Uid>
+</InstancePath>
+<Position>0 -0.0047625000000000028 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp Assem-5</Uid>
+<Uid>Arm Base Mount Version 2-3</Uid>
+</InstancePath>
+<Position>0.025399999999999999 -0.0047625000000000028 -0.0063499999999999945</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>0 -0.0047625000000000028 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.025399999999999999 0.012699999999999993 0.050800000000000012</Position>
+<Axis>0 1 -6.3743119852166142e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.31883773243113672 0.012700000000000008 -0.045324567105332614</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 -0.012064999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.26989174702967683 -0.012699999999999991 -0.013076892748681901</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chuck Mount Assem-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Chuck Mount Assem-1</Uid>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0.0057149999999999996 0 0.055036725856314361</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.051386664786949511 -0.17780000000000007</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 0.012064999999999998 0.1777999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 0.025399999999999995 0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.00063500000000000015 0.012700000000000084 0.10223500000000002</Position>
+<Axis>0 1 -1.2293315971489185e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 0.025399999999999999 -0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-2</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>-0.025400000000000006 -0.0047625000000000028 0.057150000000000013</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-4</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-2</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-3</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.33337499999999948 0.012700000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>-0.0060324999999999997 -0.10160000000000005 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.33337499999999948 0.012700000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>-0.0060324999999999997 -0.10160000000000005 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.094873538380459838 -0.025399999999999999 -0.076200000000000156</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.1016 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.33337499999999948 -0.012699999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>-0.0060324999999999979 -0.10160000000000002 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric33">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 1-3</Uid>
+</InstancePath>
+<Position>0.0063499999999999997 -0.076199999999999962 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.1016 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 -0.025400000000000002 0.13970000000000005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>18 Tooth Timing Belt Pulley (1326N51)-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000019 -0.0050000000000000044 1.1102230246251565e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 -0.025400000000000002 0.13970000000000005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000008 -0.0080000000000000071 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="GearMate1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>-0.010999999999999996 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>18 Tooth Timing Belt Pulley (1326N51)-1</Uid>
+</InstancePath>
+<Position>-0.01100000000000001 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.094873538380459838 -0.012699999999999999 -0.076200000000000156</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>0.0060325000000000031 0.1016 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 -0.025399999999999999 -0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 0.025399999999999995 0.13970000000000005</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0.01397000000000001 -0.0031750000000000042</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 -0.025399999999999999 -0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 -0.025400000000000002 0.13970000000000005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0.01397000000000001 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 1-3</Uid>
+</InstancePath>
+<Position>0.0063499999999999997 -0.076199999999999962 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>-0.0060324999999999997 0.10159999999999997 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 0.10159999999999998 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.10160000000000002 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0.013970000000000038 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.1016 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.10160000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-1</Uid>
+</InstancePath>
+<Position>0 0.013969999999999982 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.1016 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-6</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-2</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.10160000000000002 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-6</Uid>
+</InstancePath>
+<Position>0 0.013969999999999982 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>0.0060325000000000031 0.1016 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-5</Uid>
+</InstancePath>
+<Position>0 0 0.0031749999999999973</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 0.01270000000000001 0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000008 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 2-3</Uid>
+</InstancePath>
+<Position>0.0060324999999999997 -0.10160000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-5</Uid>
+</InstancePath>
+<Position>0 0.013969999999999982 0.0031749999999999938</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric49">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-2</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident81">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-3</Uid>
+</InstancePath>
+<Position>0 0.038100000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-6</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-1</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0.013970000000000038 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>0.0051593749999999904 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-3</Uid>
+</InstancePath>
+<Position>0 0.038100000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 0.025399999999999999 -0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-3</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-2</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-3</Uid>
+</InstancePath>
+<Position>0.0051593749999999973 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-6</Uid>
+</InstancePath>
+<Position>0 0 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-5</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-1</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-5</Uid>
+</InstancePath>
+<Position>0.0051593749999999973 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-1</Uid>
+</InstancePath>
+<Position>0 0.013969999999999982 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-4</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-3</Uid>
+</InstancePath>
+<Position>0 0.038100000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-4</Uid>
+</InstancePath>
+<Position>0.0051593750000000042 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-5</Uid>
+</InstancePath>
+<Position>0 0 0.0031749999999999973</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-6</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric56">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-1</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-6</Uid>
+</InstancePath>
+<Position>0.0051593749999999973 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident87">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0.01397000000000001 0.0031750000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric57">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-2</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 -0.02587278114057608 0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0 0.0055562500000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 0.025399999999999995 0.13970000000000005</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0.020081875000000027 -0.0055562499999999987</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric59">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 -0.02587278114057608 0.27940000000000009</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0055562499999999987</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 -0.025400000000000002 0.13970000000000005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-1</Uid>
+</InstancePath>
+<Position>0 0.020081875000000027 0.0055562500000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric60">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0 0.0055562500000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft 3 Quarter Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.063500000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident93">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft 3 Quarter Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.063500000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K72_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>-0.0063500000000000015 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric63">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft 3 Quarter Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.063500000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K72_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>0.0063500000000000015 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident94">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-2</Uid>
+</InstancePath>
+<Position>0 0.010080624999999954 -0.0055562500000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K72_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>0.0063500000000000015 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric64">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft 3 Quarter Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.063500000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K72_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>0.0063499999999999945 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident95">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>0.020999999999999998 -0.07547500000000007 4.9960036108132044e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K72_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>-0.0063499999999999945 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident96">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft 3 Quarter Diameter-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric65">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.12700000000000028 0.012699999999999999 0.1759763620489978</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-5</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric66">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.17003410314601608 0.012699999999999998 -0.088764607218889624</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-4</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident97">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident98">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric67">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-5</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-11</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric68">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-4</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-10</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident99">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.33337499999999948 0.012700000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-10</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident100">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.12700000000000028 0.012699999999999999 0.1759763620489978</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-11</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric69">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-5</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-8</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric70">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-4</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-9</Uid>
+</InstancePath>
+<Position>0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident101">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.33337499999999948 -0.012699999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-9</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.12700000000000028 -0.012699999999999999 0.1759763620489978</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K71_Clamping Two-Piece Shaft Collar-8</Uid>
+</InstancePath>
+<Position>-0.0051593750000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric71">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tension belt mockup with tensioner-2</Uid>
+</InstancePath>
+<Position>0.012499999999999997 -0.103177721 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>18 Tooth Timing Belt Pulley (1326N51)-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000019 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tension belt mockup with tensioner-2</Uid>
+</InstancePath>
+<Position>0.012499999999999997 0.103177721 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident103">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>48 Tooth Timing Belt Pulley (1326N63)-1</Uid>
+</InstancePath>
+<Position>-0.0089999999999999941 -0.075389999999999957 4.9960036108132044e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tension belt mockup with tensioner-2</Uid>
+</InstancePath>
+<Position>-0.012499999999999997 -0.103177721 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric72">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-1</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>-0.025399999999999999 -0.0047625000000000028 -0.0063499999999999945</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric73">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>0.025400000000000009 -0.0047625000000000028 0.057150000000000013</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-3</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric74">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>0.025400000000000002 -0.0047625000000000028 -0.0063499999999999937</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Track Rod Prototype-4</Uid>
+</InstancePath>
+<Position>0 0.38258749999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric75">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.13525236360438403 -0.015875000000000004 0.1255683236289169</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>18 Tooth Timing Belt Pulley (1326N51)-1</Uid>
+</InstancePath>
+<Position>-0.021000000000000019 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric76">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.11869999999999999 0.01651 0.073612159321677112</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Linkage 1-3</Uid>
+</InstancePath>
+<Position>0.0063499999999999997 0.076200000000000032 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 0.076200000000000018 -0.050799999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-3</Uid>
+</InstancePath>
+<Position>0 0.011112500000000011 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric77">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 -0.07619999999999999 0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-3</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 0.076200000000000018 -0.050799999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-4</Uid>
+</InstancePath>
+<Position>0 0.011112500000000011 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric78">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.050799999999999998 -0.07619999999999999 0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-4</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident106">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 0.076200000000000018 -0.050799999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-2</Uid>
+</InstancePath>
+<Position>0 0.011112500000000003 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric79">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 -0.07619999999999999 -0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-2</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 0.076200000000000018 -0.050799999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric80">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.050799999999999998 -0.07619999999999999 -0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident108">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 -0.07619999999999999 -0.050799999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-5</Uid>
+</InstancePath>
+<Position>0 0.011112500000000011 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric81">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.050799999999999998 -0.07619999999999999 0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-5</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident109">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 -0.07619999999999999 -0.050799999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-6</Uid>
+</InstancePath>
+<Position>0 0.011112500000000004 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric82">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 -0.07619999999999999 0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-6</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 -0.07619999999999999 -0.050799999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-7</Uid>
+</InstancePath>
+<Position>0 0.011112500000000004 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric83">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.050799999999999998 -0.07619999999999999 -0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-7</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident111">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 -0.07619999999999999 -0.050799999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-8</Uid>
+</InstancePath>
+<Position>0 0.011112500000000004 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric84">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0 -0.07619999999999999 -0.03175</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>9533T3_Self-Aligning Linear Sleeve Bearing-8</Uid>
+</InstancePath>
+<Position>0 0 0.015875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident112">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.025399999999999999 0.076200000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PEEK Thread Insert-1</Uid>
+</InstancePath>
+<Position>0 0.076200000000000004 0</Position>
+<Axis>0 -1 1.5762256115450589e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident113">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>0.025399999999999999 0.076200000000000018 -0.050799999999999998</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PEEK Thread Insert-1</Uid>
+</InstancePath>
+<Position>0 0.076200000000000004 0</Position>
+<Axis>0 1 -1.5762256115450589e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident115">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Base Mount Clamp Assem-5</Uid>
+<Uid>Arm Base Mount Version 2-3</Uid>
+</InstancePath>
+<Position>0 0.0047625000000000028 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0015875000000000195</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric85">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp Assem-5</Uid>
+<Uid>Arm Base Mount Version 2-3</Uid>
+</InstancePath>
+<Position>0 -0.0047625000000000028 0.025400000000000013</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0015875000000000195</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric88">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>98957A184_Grade B7 Medium-Strength Steel Threaded Rod-1</Uid>
+</InstancePath>
+<Position>0 0 -0.32385000000000003</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.0015875000000000195</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric89">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>98957A184_Grade B7 Medium-Strength Steel Threaded Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.36353750000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6443K42_Single U-Joint-1</Uid>
+</InstancePath>
+<Position>-0.028575000000000017 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident117">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>98957A184_Grade B7 Medium-Strength Steel Threaded Rod-1</Uid>
+</InstancePath>
+<Position>0 0 0.36353750000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6443K42_Single U-Joint-1</Uid>
+</InstancePath>
+<Position>-0.028575000000000017 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric90">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.13525236360438403 -0.015875000000000004 0.1255683236289169</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.051919249971783946</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric91">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.15167310265129824 -0.015875 0.12996824739565971</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0.01699999999999996 -0.0015000000000000013</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident118">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 -0.015875000000000004 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-1</Uid>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0.055975249999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric92">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.11869999999999999 0.01651 0.073612159321677112</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-4</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.051919249971783966</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric93">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.13570000000000049 0.01651 0.073612159321677528</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Motor Enclosure Assem-4</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0.017000000000000001 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident119">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.11869999999999999 0.01651 0.073612159321677112</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-4</Uid>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0.055975249999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric94">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 0.016033749999999999 -0.17780000000000007</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-5</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.051919249971783946</Position>
+<Axis>0 -1.1764654512242712e-16 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric95">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>-0.017000000000000459 0.016033750000000003 -0.17779999999999968</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-5</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0.017000000000000015 -0.0014999999999999979</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident122">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>0 0.016033749999999999 -0.17780000000000007</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-5</Uid>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0.055975249999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric96">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>0 -0.0047625000000000028 0.025400000000000016</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-6</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.051919249971783987</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric97">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>0 -0.017462499999999992 0.042400000000000021</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Assem-6</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0.017000000000000015 0 -0.0015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident123">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Base Mount Clamp + Motor Mount Assem-4</Uid>
+<Uid>Arm Base Mount Version 2 Motor Mount-4</Uid>
+</InstancePath>
+<Position>0 0.0047625000000000028 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-6</Uid>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0.055975250000000032 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident124">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6443K42_Single U-Joint-1</Uid>
+</InstancePath>
+<Position>0.011112500000000025 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-6</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.029899999999999982</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric98">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.11869999999999999 -0.018097499999999999 0.073612159321677112</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0 0.0055562499999999987</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident125">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.11869999999999999 -0.018097499999999999 0.073612159321677112</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0.020081874999999999 0.0055562500000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Hitch Version 4-2</Uid>
+</InstancePath>
+<Position>-0.11869999999999999 0.0069850000000000008 0.073612159321677112</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Arm Linkage 1-3</Uid>
+</InstancePath>
+<Position>0.0063499999999999997 -0.076199999999999962 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric99">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.051386664786949511 -0.17780000000000007</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0 0.0050006250000000016</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident128">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 2 Version 4-1</Uid>
+</InstancePath>
+<Position>-0.025400000000000089 -0.0069850000000000008 -0.15239999999999998</Position>
+<Axis>0 1 1.1951834972281145e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0.020081875000000082 0.0055562500000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric102">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0 0.0055562499999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Bearing spacer-1</Uid>
+</InstancePath>
+<Position>0.0055562499999999987 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident135">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-3</Uid>
+</InstancePath>
+<Position>0 0.010080625000000065 -0.0055562500000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Bearing spacer-1</Uid>
+</InstancePath>
+<Position>0.0055562499999999987 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-5</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0.0064900000000000235 0.015399999999999994</Position>
+<Axis>-1.6653345369377348e-16 1 -1.176465451224271e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Bearing spacer-1</Uid>
+</InstancePath>
+<Position>0.0055562499999999987 -0.0019999999999998908 0.0065200000000000258</Position>
+<Axis>0 1.6653345369377348e-16 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident137">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0.01232856302416592 0.0055562500000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Bearing spacer-2</Uid>
+</InstancePath>
+<Position>-0.0055562500000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric103">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing-4</Uid>
+</InstancePath>
+<Position>0 0 0.0055562499999999987</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Bearing spacer-2</Uid>
+</InstancePath>
+<Position>0.0055562499999999987 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem-4</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0.0064900000000000097 0.0154</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Bearing spacer-2</Uid>
+</InstancePath>
+<Position>0.0055562499999999987 -0.0020000000000000018 0.006519999999999998</Position>
+<Axis>0 2.1684043449710089e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident141">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>7749N811_Corrosion-Resistant Extension Spring with Loop Ends-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-4</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="Unknown">
+<InstancePath>
+<Uid>7749N811_Corrosion-Resistant Extension Spring with Loop Ends-1</Uid>
+</InstancePath>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft-5</Uid>
+</InstancePath>
+<Position>0 0.038100000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>7749N811_Corrosion-Resistant Extension Spring with Loop Ends-1</Uid>
+</InstancePath>
+<Position>-0.04959350000000004 0 -0.0017145000000000005</Position>
+<Axis>0.18333911752191237 -0.98304972813499436 -1.1279800623864325e-15</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincident142">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>-0.16668749999999977 -0.025400000000000002 0.13970000000000005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6235K62_Idler Pulley-1</Uid>
+</InstancePath>
+<Position>0 0.026289000000000007 0.019558000000000006</Position>
+<Axis>0 -1.2246467991473532e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric105">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.11783825927578109 -0.015875 0.21040419826136991</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6235K62_Idler Pulley-1</Uid>
+</InstancePath>
+<Position>0 0 0.019558000000000002</Position>
+<Axis>0 -1.2246467991473532e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric106">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.11783825927578109 -0.015875 0.21040419826136991</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft 3 8th Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.028575 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident143">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Arm 1 Curved Version 4-3</Uid>
+</InstancePath>
+<Position>0.11783825927578109 -0.015875 0.21040419826136991</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K13_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>-0.0047624999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric107">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft 3 8th Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.028575 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K13_Clamping Two-Piece Shaft Collar-1</Uid>
+</InstancePath>
+<Position>0.0047625000000000002 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident144">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6235K62_Idler Pulley-1</Uid>
+</InstancePath>
+<Position>0 0.0049529999999999852 -0.0059999999999999776</Position>
+<Axis>0 1.2246467991473532e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K13_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>0.0047625000000000028 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric108">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SS joint shaft 3 8th Diameter-1</Uid>
+</InstancePath>
+<Position>0 0.028575 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>6436K13_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>0.0047625000000000028 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident145">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SS joint shaft 3 8th Diameter-1</Uid>
+</InstancePath>
+<Position>0 -0.028574999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>6436K13_Clamping Two-Piece Shaft Collar-2</Uid>
+</InstancePath>
+<Position>-0.0047625000000000028 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Arm Base Mount Clamp + Motor Mount Assem" uid="Arm Base Mount Clamp + Motor Mount Assem" version="191">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Arm Base Mount Clamp + Motor Mount Assem.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Chuck Mount Assem" uid="Chuck Mount Assem" version="152">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Chuck Mount Assem.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0 0 -0.011112499999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drill chuck assembly mass included-1</Uid>
+<Uid>drill chuck part 2-1</Uid>
+</InstancePath>
+<Position>-0.016000000000000004 0.070499999999999993 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chuck Mount Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drill chuck assembly mass included-1</Uid>
+<Uid>drill chuck part 2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drill chuck assembly mass included-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0.0057149999999999996 0 0.055036725856314361</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chuck Mount Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Robot Chuck Hitch-1</Uid>
+</InstancePath>
+<Position>0.0057149999999999996 0 0.055036725856314361</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chuck Mount Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="drill chuck assembly mass included" uid="drill chuck assembly mass included" version="11890">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="drill chuck assembly mass included.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Arm Base Mount Clamp Assem" uid="Arm Base Mount Clamp Assem" version="187">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Arm Base Mount Clamp Assem.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Motor Enclosure Assem" uid="Motor Enclosure Assem" version="133">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="Motor Enclosure Assem.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 0.0019999999999999948</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0.05393474999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 -0.017000000000000001 -0.0014999999999999944</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 -0.055975249999999997 0.017000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor Enclosure Assem</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093-1</Uid>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0.017000000000000001 -0.0015000000000000013</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Motor Enclosure Body-1</Uid>
+</InstancePath>
+<Position>1.1871036552066653e-16 -0.055975249999999997 -0.017000000000000001</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="ElectroCraft-LRPX40-250V24-020-X 093" uid="ElectroCraft-LRPX40-250V24-020-X 093" version="587">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ElectroCraft-LRPX40-250V24-020-X 093.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<UnknownConstraint name="Coincident4">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 -0.039600000000000003</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 -0.039600000000000003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 -0.039600000000000003</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093</Uid>
+</InstancePath>
+<Position>0 0 -0.057149999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0 -0.069000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0 -0.069000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.051919249971783966</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0 0.001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0.002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3-1</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 0.002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing" uid="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing*:*1258N17" version="141">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024474788250026043</Mass>
+<CenterOfMass>0 0 -2.8148238878774324e-05</CenterOfMass>
+<Inertia>1.6376214096007279e-07 1.6376214096007271e-07 3.1151744580113088e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="1258N17_ 1&amp;1_8_ OD PEEK Plastic Ball Bearing_1258N17_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing" uid="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing*:*1258N23" version="141">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0089229662341412126</Mass>
+<CenterOfMass>0 0 -2.8325114889942124e-05</CenterOfMass>
+<Inertia>1.2786763322326578e-06 1.2786763322326565e-06 2.3790724164362805e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="1258N23_ 1&amp;5_8_ OD PEEK Plastic Ball Bearing_1258N23_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="18 Tooth Timing Belt Pulley (1326N51)" uid="18 Tooth Timing Belt Pulley (1326N51)*:*1326N51" version="429">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="18 Tooth Timing Belt Pulley (1326N51).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21381900276956323</Mass>
+<CenterOfMass>0.0019871743471410715 -1.9953918378828335e-05 -3.4755627424169698e-09</CenterOfMass>
+<Inertia>7.4459485003557796e-05 6.5669184086296375e-05 6.5802415449662686e-05 1.1049730367992864e-12 -2.8808757057072401e-11 -8.3636756546227878e-09</Inertia>
+</MassProperties>
+<GeometryFile name="18 Tooth Timing Belt Pulley (1326N51)_1326N51_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing" uid="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing*:*2796T14" version="110">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021366825143974552</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.1314729596992666e-07 2.1314729596992664e-07 4.2270474274457033e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="2796T14_Ultra-Low-Friction Dry-Running Thrust Bearing_2796T14_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31</Shininess>
+</VisualProperties>
+</Part>
+<Part name="48 Tooth Timing Belt Pulley (1326N63)" uid="48 Tooth Timing Belt Pulley (1326N63)*:*1326N63" version="168">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="48 Tooth Timing Belt Pulley (1326N63).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6430043640088148</Mass>
+<CenterOfMass>0.002717236516370528 1.4962037794154193e-08 1.1206318288935098e-08</CenterOfMass>
+<Inertia>0.0042985377074461258 0.0023449419524223516 0.0023496862284242597 -3.2169487161322222e-11 3.4601185466511921e-10 4.6599945509884508e-10</Inertia>
+</MassProperties>
+<GeometryFile name="48 Tooth Timing Belt Pulley (1326N63)_1326N63_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="5720K23_Clamping Handle with Threaded Stud" uid="5720K23_Clamping Handle with Threaded Stud*:*5720K23" version="1881">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="5720K23_Clamping Handle with Threaded Stud.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.03072212326144954</Mass>
+<CenterOfMass>-0.024390911627810576 0.013735230912282334 8.2078542284340288e-08</CenterOfMass>
+<Inertia>8.107416485756348e-06 2.7922398054106523e-05 3.2736271372017868e-05 2.7528384528003364e-10 -1.7273785467516501e-10 6.0485574783454701e-06</Inertia>
+</MassProperties>
+<GeometryFile name="5720K23_Clamping Handle with Threaded Stud_5720K23_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6235K62_Idler Pulley" uid="6235K62_Idler Pulley*:*6235K62" version="651">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6235K62_Idler Pulley.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040155924042712884</Mass>
+<CenterOfMass>0 0 -9.4131318106498818e-16</CenterOfMass>
+<Inertia>1.1610291286260094e-05 1.1610291286260094e-05 1.5154457508972069e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="6235K62_Idler Pulley_6235K62_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6436K13_Clamping Two-Piece Shaft Collar" uid="6436K13_Clamping Two-Piece Shaft Collar*:*6436K13" version="2101">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6436K13_Clamping Two-Piece Shaft Collar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0025570123349473468</Mass>
+<CenterOfMass>-1.7323305498317e-06 3.5269578525210206e-08 -0.00011006714248345882</CenterOfMass>
+<Inertia>1.8356046684313451e-07 1.1681045260808549e-07 1.0687094439153909e-07 8.2908290770398904e-13 9.1092674409535091e-13 -1.6184952865543122e-12</Inertia>
+</MassProperties>
+<GeometryFile name="6436K13_Clamping Two-Piece Shaft Collar_6436K13_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6436K71_Clamping Two-Piece Shaft Collar" uid="6436K71_Clamping Two-Piece Shaft Collar*:*6436K71" version="2052">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6436K71_Clamping Two-Piece Shaft Collar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0045214188654492012</Mass>
+<CenterOfMass>-2.3500151194823131e-06 -2.2974434011723922e-08 -0.0002544345177081693</CenterOfMass>
+<Inertia>5.4058036966998972e-07 3.2336521375586924e-07 3.0128881373273898e-07 -1.0174317361606922e-12 5.3278132524640939e-12 3.4456031046372702e-12</Inertia>
+</MassProperties>
+<GeometryFile name="6436K71_Clamping Two-Piece Shaft Collar_6436K71_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6436K72_Clamping Two-Piece Shaft Collar" uid="6436K72_Clamping Two-Piece Shaft Collar*:*6436K72" version="2052">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6436K72_Clamping Two-Piece Shaft Collar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0093696843167824541</Mass>
+<CenterOfMass>-3.373758844093609e-06 1.8798412893835031e-07 -0.00014137151104279686</CenterOfMass>
+<Inertia>2.0788647066167469e-06 1.2144026498585413e-06 1.126652483353645e-06 2.1705964730338189e-11 2.2257533174932909e-12 -4.9363937329997385e-13</Inertia>
+</MassProperties>
+<GeometryFile name="6436K72_Clamping Two-Piece Shaft Collar_6436K72_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="6443K42_Single U-Joint" uid="6443K42_Single U-Joint*:*6443K42" version="390">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="6443K42_Single U-Joint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0070944989051287544</Mass>
+<CenterOfMass>7.2528978788273213e-08 -0.00018555204277914884 -5.7480763866057645e-05</CenterOfMass>
+<Inertia>2.6640107631403994e-07 1.8526990197795606e-06 1.8478655922959841e-06 7.499034945623323e-11 -2.3583714376296725e-12 3.2522466687232391e-13</Inertia>
+</MassProperties>
+<GeometryFile name="6443K42_Single U-Joint_6443K42_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="7749N811_Corrosion-Resistant Extension Spring with Loop Ends" uid="7749N811_Corrosion-Resistant Extension Spring with Loop Ends*:*7749N811" version="1373">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="7749N811_Corrosion-Resistant Extension Spring with Loop Ends.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.017635290677978869</Mass>
+<CenterOfMass>3.7244129189210549e-05 -8.7954930497902083e-05 1.9961937991115963e-06</CenterOfMass>
+<Inertia>2.1018986014475045e-06 1.9353601705115989e-05 1.941998550663608e-05 -3.3753675840897356e-10 1.0893120970352112e-07 -7.1872977358788498e-09</Inertia>
+</MassProperties>
+<GeometryFile name="7749N811_Corrosion-Resistant Extension Spring with Loop Ends_7749N811_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="9533T3_Self-Aligning Linear Sleeve Bearing" uid="9533T3_Self-Aligning Linear Sleeve Bearing*:*9533T3" version="365">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="9533T3_Self-Aligning Linear Sleeve Bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0073242302241628031</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>9.0876212129417529e-07 9.0876212129417529e-07 5.7904506422339475e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="9533T3_Self-Aligning Linear Sleeve Bearing_9533T3_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="98957A184_Grade B7 Medium-Strength Steel Threaded Rod" uid="98957A184_Grade B7 Medium-Strength Steel Threaded Rod*:*98957A184" version="653">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="98957A184_Grade B7 Medium-Strength Steel Threaded Rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30000786095890947</Mass>
+<CenterOfMass>-1.7076365225652063e-05 -1.1455815063960486e-06 0.017100127146362071</CenterOfMass>
+<Inertia>0.01222924901032417 0.012229269113311651 2.0668325105002861e-05 1.5601027107230441e-07 -4.3362485850532263e-07 -6.150094070695112e-07</Inertia>
+</MassProperties>
+<GeometryFile name="98957A184_Grade B7 Medium-Strength Steel Threaded Rod_98957A184_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Base Mount Jaw" uid="Arm Base Mount Jaw*:*Default" version="340">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Base Mount Jaw.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.079447916843266839</Mass>
+<CenterOfMass>-0.00087416314534801722 0 -0.012398550063452975</CenterOfMass>
+<Inertia>0.00011346353722974624 2.1134223837457183e-05 9.6611120934086354e-05 0 2.3815388336449331e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Base Mount Jaw_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Base Mount Version 2 Motor Mount" uid="Arm Base Mount Version 2 Motor Mount*:*Default" version="730">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Base Mount Version 2 Motor Mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15800206287971783</Mass>
+<CenterOfMass>-2.8785427813759272e-05 -0.0013970838888358924 -0.001836427071588799</CenterOfMass>
+<Inertia>0.00029655164574298435 0.00042593705678451289 0.00013503444414136685 2.7587680877869303e-07 1.2365387032079902e-07 -2.9758652233428629e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Base Mount Version 2 Motor Mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Base Mount Version 2" uid="Arm Base Mount Version 2*:*Default" version="598">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Base Mount Version 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1519956663528034</Mass>
+<CenterOfMass>-2.9922938492816469e-05 -0.0014583800917521428 -0.0029127260536178264</CenterOfMass>
+<Inertia>0.00029133242552571953 0.00042024690148392515 0.00013444697634243109 5.3965960329286492e-07 1.2854904704359468e-07 -2.9479867480565516e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Base Mount Version 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Hitch Track Rod Prototype" uid="Arm Hitch Track Rod Prototype*:*Default" version="119">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Hitch Track Rod Prototype.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.096929973829606955</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0047302937733345223 1.9542294348721628e-06 0.0047302937733345223 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Hitch Track Rod Prototype_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Hitch Version 4" uid="Arm Hitch Version 4*:*Default" version="1299">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Hitch Version 4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.5935167879561511</Mass>
+<CenterOfMass>-0.013905544217733568 7.7415817854388715e-06 0.020265174409631496</CenterOfMass>
+<Inertia>0.017774808007720109 0.024564478834906166 0.019686942052663168 -1.4737094932252734e-05 -0.0060889807567966773 9.5192605995688643e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Hitch Version 4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Linkage 1" uid="Arm Linkage 1*:*Default" version="196">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Linkage 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23093245887166805</Mass>
+<CenterOfMass>0 0.00046966860212279061 -5.5960224834320205e-06</CenterOfMass>
+<Inertia>0.00064934499425875545 3.0667670650855145e-05 0.00062488517298980211 9.7866552025911732e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Linkage 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Arm Linkage 2" uid="Arm Linkage 2*:*Default" version="181">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Arm Linkage 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30299867915908707</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0012564745033359207 5.623057745895409e-05 0.0012075948871949362 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Arm Linkage 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft*:*Key" version="4003">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.002242696974126962</Mass>
+<CenterOfMass>0 0.00014148542206012275 0.016036264845306469</CenterOfMass>
+<Inertia>1.5864557981809543e-07 1.5689676555590756e-07 2.9129635573959332e-08 -1.3846521237381703e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Front_shaft_Key_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3" uid="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.087658826798173287</Mass>
+<CenterOfMass>0 0 -0.034111545493762767</CenterOfMass>
+<Inertia>4.4306354018291345e-05 4.4306354018291345e-05 1.7399223570714087e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ElectroCraft-LRPX40-250V24-020-X 093_LRPX40_Stage3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250" uid="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250*:*Default" version="256">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.052877775284273017</Mass>
+<CenterOfMass>-1.4880891488835009e-06 -1.683485002634447e-05 -0.019872843242345707</CenterOfMass>
+<Inertia>1.2609436025092167e-05 1.2616091432523256e-05 1.1012853595808027e-05 -3.4033683490458596e-10 -6.7719151943455137e-11 1.5234410935650475e-09</Inertia>
+</MassProperties>
+<GeometryFile name="ElectroCraft-LRPX40-250V24-020-X 093_RPX40-250_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor Bearing spacer" uid="Motor Bearing spacer*:*Default" version="106">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor Bearing spacer.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0022209021691205083</Mass>
+<CenterOfMass>0 0 -0.0001885729048115525</CenterOfMass>
+<Inertia>1.3018588623856851e-07 8.6760748105203587e-08 8.9134138737570344e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor Bearing spacer_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Motor Enclosure Body" uid="Motor Enclosure Body*:*Default" version="380">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Motor Enclosure Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.053381603360885398</Mass>
+<CenterOfMass>0 0.0039185826540708802 0</CenterOfMass>
+<Inertia>7.4791059299945755e-05 2.5561253519071988e-05 7.4791059299945768e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Motor Enclosure Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PEEK Thread Insert" uid="PEEK Thread Insert*:*Default" version="182">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PEEK Thread Insert.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.071067155832650455</Mass>
+<CenterOfMass>3.0635484644072367e-07 -6.8970295560030252e-05 -1.253194283729842e-05</CenterOfMass>
+<Inertia>0.00014415883600447512 1.3820376967005242e-05 0.00014415730636281875 2.4846877334439827e-08 -1.6743512315377114e-09 7.7239111662922577e-09</Inertia>
+</MassProperties>
+<GeometryFile name="PEEK Thread Insert_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot Arm 1 Curved Version 4" uid="Robot Arm 1 Curved Version 4*:*Default" version="1919">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Robot Arm 1 Curved Version 4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.9037029521104714</Mass>
+<CenterOfMass>0.07135323135350144 -0.00058223400110142803 0.018578409555206548</CenterOfMass>
+<Inertia>0.10771424114918303 0.11183936430149236 0.0058464839257394508 0.00034770898781090665 0.0003716613716051269 0.00011065896090542153</Inertia>
+</MassProperties>
+<GeometryFile name="Robot Arm 1 Curved Version 4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot Arm 2 Version 4" uid="Robot Arm 2 Version 4*:*Default" version="1296">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Robot Arm 2 Version 4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2526036486256962</Mass>
+<CenterOfMass>0 0.00024623356999035407 0.004186714621880791</CenterOfMass>
+<Inertia>0.014773703168707748 0.014966596176608745 0.00034329277290744554 5.6130720759561538e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Robot Arm 2 Version 4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Robot Chuck Hitch" uid="Robot Chuck Hitch*:*Default" version="462">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Robot Chuck Hitch.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17164540766077413</Mass>
+<CenterOfMass>3.9352896117321431e-07 -1.6373966050123743e-07 0.0090773575712344342</CenterOfMass>
+<Inertia>7.6952943304637057e-05 7.0940068352850935e-05 4.4365450637309511e-05 -6.132046525351071e-10 1.4359215230912994e-09 -1.0914123186799002e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Robot Chuck Hitch_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SS joint shaft 3 8th Diameter" uid="SS joint shaft 3 8th Diameter*:*Default" version="109">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="SS joint shaft 3 8th Diameter.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0040722654980280939</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.1314676744532638e-06 4.6182354059316887e-08 1.1314676744532638e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SS joint shaft 3 8th Diameter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SS joint shaft 3 Quarter Diameter" uid="SS joint shaft 3 Quarter Diameter*:*Default" version="158">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="SS joint shaft 3 Quarter Diameter.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.28864552194976434</Mass>
+<CenterOfMass>8.6761300115500373e-11 -8.2525324056951344e-05 -2.6813485839804167e-05</CenterOfMass>
+<Inertia>0.0003951089849720002 1.307063158492849e-05 0.00039517237916028683 1.9722660350881434e-07 -3.3260485466895265e-13 -6.3593908211385483e-13</Inertia>
+</MassProperties>
+<GeometryFile name="SS joint shaft 3 Quarter Diameter_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SS joint shaft" uid="SS joint shaft*:*Default" version="120">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="SS joint shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.077222219814458634</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>3.8143963741239235e-05 1.5568964792342539e-06 3.8143963741239235e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SS joint shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tension belt mockup with tensioner" uid="Tension belt mockup with tensioner*:*Default" version="136">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Tension belt mockup with tensioner.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.049315848971648972</Mass>
+<CenterOfMass>0 -0.032674968879977943 -0.0033375441015869936</CenterOfMass>
+<Inertia>0.00063257371180682929 0.00012632681238842718 0.00051138396701961555 1.0185982906140032e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tension belt mockup with tensioner_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Work Area" uid="Work Area*:*Default" version="107">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Work Area.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>226.53477273600001</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>14.030512701922348 14.030512701922348 14.030512701922348 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Work Area_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.5" g="0.5" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="driil chuck jaws 2" uid="driil chuck jaws 2*:*Default" version="281">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="driil chuck jaws 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030268584533547041</Mass>
+<CenterOfMass>-0.0075227243785712375 0.030744944612731445 -3.0263508662042752e-08</CenterOfMass>
+<Inertia>6.621660674132309e-06 5.5405986004316437e-07 6.7058818848931594e-06 1.6931361439682226e-11 -4.1533329880875205e-12 1.0217999480559172e-06</Inertia>
+</MassProperties>
+<GeometryFile name="driil chuck jaws 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drill chuck gear" uid="drill chuck gear*:*Default" version="199">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drill chuck gear.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.084084249453300952</Mass>
+<CenterOfMass>7.8544177121132281e-05 0.006097269313994679 -8.6968986611939429e-05</CenterOfMass>
+<Inertia>1.8815452315142303e-05 3.5341877722459857e-05 1.8801914547026802e-05 4.9649780552436404e-08 -5.1905651668000563e-08 2.3208657090896806e-08</Inertia>
+</MassProperties>
+<GeometryFile name="drill chuck gear_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drill chuck part 2" uid="drill chuck part 2*:*Default" version="269">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drill chuck part 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.44126884672814332</Mass>
+<CenterOfMass>2.8369560218336879e-09 0.034120134076455234 1.6171449023471876e-08</CenterOfMass>
+<Inertia>0.00025575171598397222 0.00011385930654356355 0.00025575173183045997 -5.54811921476162e-12 1.2393757699093377e-10 2.5943987346474037e-10</Inertia>
+</MassProperties>
+<GeometryFile name="drill chuck part 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drill chuck part1" uid="drill chuck part1*:*Default" version="322">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drill chuck part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26776162784185181</Mass>
+<CenterOfMass>0 0.023108294928745651 -7.5094429833099687e-10</CenterOfMass>
+<Inertia>0.00013504030808494485 0.00018042761143994556 0.00013504034456369207 4.0901544167121972e-12 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="drill chuck part1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
